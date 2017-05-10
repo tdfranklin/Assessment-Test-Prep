@@ -1,7 +1,7 @@
 # Ruby Questions
 
 ## Which of the expressions listed below will result in "false"?
-
+```ruby
 true    ? "true" : "false"
 false   ? "true" : "false"
 nil     ? "true" : "false"
@@ -10,7 +10,7 @@ nil     ? "true" : "false"
 "false" ? "true" : "false"
 ""      ? "true" : "false"
 []      ? "true" : "false"
-
+```
 ## I want to write some code that takes an array of numbers, multiplies each item in the array by 3, and returns a new array with the new values. know I should use #map, #each, or #select, but I’m not sure which one is best -- teach me.
 
 ## What are the common controller actions?
@@ -23,7 +23,7 @@ c) Encapsulates functionality
 d) Allows the developer to make certain methods/variables inaccessible to other classes
 
 ## Consider the following two methods:
-
+```ruby
 def times_two(arg1);
   puts arg1 * 2;
 end
@@ -31,15 +31,16 @@ end
 def sum(arg1, arg2);
   puts arg1 + arg2;
 end
-
+```
 What will be the result of each of the following lines of code:
-
+```ruby
 times_two 5
 times_two(5)
 times_two (5)
 sum 1, 2
 sum(1, 2)
 sum (1, 2)
+```
 
 ## What is missing? M_____/View/Controller
 
